@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: sesame-discovery-service
+server:
+  port: ${SERVER_PORT}
+eureka:
+  instance:
+    hostname: ${EUREKA_INSTANCE_HOSTNAME}
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: ${EUREKA_CLIENT_SERVICE_URL_DEFAULT_ZONE}
