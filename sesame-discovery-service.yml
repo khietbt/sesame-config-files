@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: sesame-discovery-service
 server:
   port: ${SERVER_PORT}
 eureka:
