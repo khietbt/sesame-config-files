@@ -6,3 +6,5 @@ eureka:
       defaultZone: ${EUREKA_CLIENT_SERVICE_URL_DEFAULT_ZONE}
   instance:
     hostname: ${EUREKA_INSTANCE_HOSTNAME}
+server:
+  port: ${SERVER_PORT}
