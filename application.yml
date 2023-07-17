@@ -8,3 +8,9 @@ eureka:
     hostname: ${EUREKA_INSTANCE_HOSTNAME}
 server:
   port: ${SERVER_PORT}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
